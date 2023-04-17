@@ -29,7 +29,9 @@ function App() {
 		setCurrentPlayer(currentPlayer?.color === Colors.WHITE ? blackPlayer : whitePlayer)
 	}
 	return (
+		
 		<div className="app">
+			hello world
 			<Timer
 				restart={restart}
 				currentPlayer={currentPlayer}
